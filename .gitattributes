@@ -1,0 +1,30 @@
+* text=auto
+
+*.doc	diff=astextplain
+*.DOC	diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot diff=astextplain
+*.DOT diff=astextplain
+*.pdf diff=astextplain
+*.PDF	diff=astextplain
+*.rtf	diff=astextplain
+*.RTF	diff=astextplain
+
+*.exe binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.dll binary
+*.pdb binary
+*.pptx binary
+*.xap binary
+*.ico binary
+*.ttf binary
+*.otf binary
+
+*.rb diff=ruby
+
+*.cs diff=csharp
+*.csproj merge=union
+*.sln text=auto merge=union
